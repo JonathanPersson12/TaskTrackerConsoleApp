@@ -43,11 +43,11 @@ TaskMasterConsoleApp/                     # Main project folder
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/TaskMasterConsoleApp.git
+   git clone https://github.com/JonathanPersson12/TaskTrackerConsoleApp.git
    ```
 2. Navigate to the project folder in VS using terminal or open the TaskTrackerConsoleApp.sln inside the folder:
    ```sh
-   cd TaskMasterConsoleApp/TaskMasterApp
+   cd TaskTrackerConsoleApp
    ```
 4. Run the application using dotnet run in terminal or press F5 in VS Community:
    ```sh
