@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTrackerConsoleApp", "TaskTrackerConsoleApp.csproj", "{7E2AC837-EEC8-46D9-B394-65136761E587}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TaskTrackerApp", "TaskTrackerApp", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Program.cs = Program.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{BD6C0AE4-5B4B-4809-AB39-36740386B235}"
+	ProjectSection(SolutionItems) = preProject
+		TaskItem.cs = TaskItem.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A69F3E7A-5816-4C7E-A2C5-CEDB294676F2}"
+	ProjectSection(SolutionItems) = preProject
+		FileHandler.cs = FileHandler.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{47D40CB1-739B-4B61-8E8C-F9923D34D17B}"
+	ProjectSection(SolutionItems) = preProject
+		DisplayMenu.cs = DisplayMenu.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E54DC14E-1D4B-406C-B583-7B417E345628}"
+	ProjectSection(SolutionItems) = preProject
+		SortingFunction.cs = SortingFunction.cs
+		TodoManager.cs = TodoManager.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E2AC837-EEC8-46D9-B394-65136761E587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E2AC837-EEC8-46D9-B394-65136761E587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E2AC837-EEC8-46D9-B394-65136761E587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E2AC837-EEC8-46D9-B394-65136761E587}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD6C0AE4-5B4B-4809-AB39-36740386B235} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A69F3E7A-5816-4C7E-A2C5-CEDB294676F2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{47D40CB1-739B-4B61-8E8C-F9923D34D17B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E54DC14E-1D4B-406C-B583-7B417E345628} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {302B8975-3AFB-46CF-A2AA-1BA2BA7DBE8B}
+	EndGlobalSection
+EndGlobal
